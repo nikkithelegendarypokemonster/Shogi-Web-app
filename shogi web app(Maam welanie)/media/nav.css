@@ -1,0 +1,14 @@
+@media(max-width:426px){
+  .navbar-toggler-icon{
+    max-width: 25px;
+    max-height: 25px;
+    height:auto;
+  }
+}
+@media(max-width:376px){
+  .nav-parent{
+    margin-left: auto;
+    margin-right: auto;
+    width:15%;
+  }
+}

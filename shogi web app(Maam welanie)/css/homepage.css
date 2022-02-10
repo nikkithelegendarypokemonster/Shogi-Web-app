@@ -1,0 +1,43 @@
+
+body{
+  max-width:100%;
+  height:auto;
+  margin: 0px;
+  padding:0px;
+  background-image: url("./../img/seamless.jpg");
+}
+
+.Header-container{
+    margin: 0px;
+    padding:10px;
+    padding-bottom: 0;
+    background-color: #B35900;
+}
+.logo{
+  max-width: 100px;
+  width:100%;
+  height: auto;
+  vertical-align:middle;
+}
+.header-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title-text{
+  font-family: Meiryo;
+  color: #FFFFCC;
+  margin-bottom: 0;
+}
+.quote{
+  font-family: Meiryo;
+  color: #FFFFCC;
+  font-weight: bold;
+  font-size: 11px;
+  position: relative;
+  left: 20%;
+}
+@font-face {
+  font-family: Meiryo;
+  src: url("./../fonts/meiryo.ttc");
+}

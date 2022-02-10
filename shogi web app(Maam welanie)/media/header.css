@@ -1,0 +1,10 @@
+@media(max-width:426px){
+  .title-text{
+    font-size: 5vw;
+  }
+  .logo{
+    max-width: 70px;
+    width:100%;
+    height: auto;
+  }
+}

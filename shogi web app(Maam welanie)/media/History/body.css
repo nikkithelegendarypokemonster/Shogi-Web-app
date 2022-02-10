@@ -1,0 +1,58 @@
+@media(max-width:948px){
+  /*Banner style*/
+  .jumbotron .text-1{
+    font-size: 40px;
+  }
+  .jumbotron  .lead{
+    font-size: 90%;
+  }
+  /*-----------------------------*/
+  .header{
+    font-size: 25px;
+  }
+  .para{
+    font-size: 11px;
+  }
+}
+@media(max-width:426px){
+  /*Banner style*/
+  .jumbotron .text-1{
+    font-size: 40px;
+  }
+  .jumbotron  .lead{
+    font-size: 90%;
+  }
+  /*-----------------------------*/
+
+  .header{
+    font-size: 15px;
+  }
+  .para{
+    font-size: 11px;
+  }
+}
+
+@media(max-width:321px){
+  /*Banner style*/
+  .jumbotron .text-1{
+    font-size: 40px;
+  }
+  .jumbotron  .lead{
+    font-size: 90%;
+  }
+  /*-----------------------------*/
+
+  .header{
+    font-size: 15px;
+  }
+  .para{
+    font-size: 9px;
+  }
+  .Footer-container{
+    padding:10px;
+  }
+  .Footer-container p{
+    font-size: 13px;
+    margin:0;
+  }
+}

@@ -1,0 +1,183 @@
+@media(max-width:948px){
+  /*Banner style*/
+  .first .text-1,.second .text-1{
+    font-size: 40px;
+  }
+  .first  .lead,.second .lead{
+    font-size: 90%;
+  }
+  /*-----------------------------*/
+  .head{
+    font-size: 25px;
+  }
+  .Text{
+    font-size: 11px;
+  }
+  .box{
+    display: inline-block;
+    text-align: center;
+    background-color: 	#D3D3D3 ;
+    opacity:80%;
+    max-width: 120px;
+    height: auto;
+    margin:4px;
+    padding:0;
+    transition: opacity 0.5s;
+  }
+  .box:hover{
+    text-align: center;
+    background-color:#D3D3D3 ;
+    opacity:120%;
+    max-width: 120px;
+    height:auto;
+    margin:4px;
+    transition: opacity 0.5s;
+  }
+  .box-images{
+    display: block;
+    max-width: 100%;
+    max-height:100%;
+    object-fit: cover;
+  }
+  .box-text{
+    font-family: Meiryo;
+    margin:0;
+  }
+  .box-button{
+    float: right;
+    background-color: red;
+    padding:1px;
+    margin:10px;
+    transition: background-color 0.5s;
+  }
+  .box-button a{
+    font-size: 11px;
+  }
+  .box-button:hover{
+    background-color: #8b0000;
+    transition: background-color 0.5s;
+  }
+}
+@media(max-width:660px){
+  /*Banner style*/
+  .first .text-1,.second .text-1{
+    font-size: 20px;
+  }
+  .first  .lead,.second .lead{
+    font-size: 60%;
+  }
+  /*-----------------------------*/
+  .box{
+    display: inline-block;
+    text-align: center;
+    background-color: 	#D3D3D3 ;
+    opacity:80%;
+    max-width: 80px;
+    height:auto;
+    margin:4px;
+    padding:0;
+    transition: opacity 0.5s;
+  }
+  .box:hover{
+    display: inline-block;
+    text-align: center;
+    background-color:#D3D3D3 ;
+    opacity:100%;
+    max-width: 80px;
+    height:auto;
+    margin:4px;
+    transition: opacity 0.5s;
+  }
+  .box-images{
+    display: block;
+    max-width: 100%;
+    max-height:100%;
+    object-fit: cover;
+  }
+  .box-text{
+    font-family: Meiryo;
+    font-size: 11px;
+    margin:0;
+  }
+  .box-button{
+    float: right;
+    background-color: red;
+    padding:1px;
+    margin:10px;
+    transition: background-color 0.5s;
+  }
+  .box-button a{
+    font-size: 11px;
+  }
+  .box-button a:hover{
+    text-decoration: none;
+    color: White;
+    font-family: Arial;
+  }
+  .box-button:hover{
+    background-color: #8b0000;
+    transition: background-color 0.5s;
+  }
+}
+@media(max-width:321px){
+  /*Banner style*/
+  .first .text-1,.second .text-1{
+    font-size: 20px;
+  }
+  .first  .lead,.second .lead{
+    font-size: 60%;
+  }
+  /*-----------------------------*/
+  .box{
+    display: inline-block;
+    text-align: center;
+    background-color: 	#D3D3D3 ;
+    opacity:80%;
+    max-width: 50px;
+    height:auto;
+    margin:4px;
+    padding:0;
+    transition: opacity 0.5s;
+  }
+  .box:hover{
+    display: inline-block;
+    text-align: center;
+    background-color:#D3D3D3 ;
+    opacity:100%;
+    max-width: 50px;
+    height:auto;
+    margin:4px;
+    transition: opacity 0.5s;
+  }
+  .box-images{
+    display: block;
+    max-width: 100%;
+    max-height:100%;
+    object-fit: cover;
+  }
+  .box-text{
+    font-family: Meiryo;
+    font-size: 7px;
+    margin:0;
+  }
+  .box-button{
+    width: 100%;
+    background-color: red;
+    transition: background-color 0.5s;
+    margin:0;
+  }
+  .box-button a{
+    font-size: 7px;
+    margin:0;
+    white-space:nowrap;
+  }
+  .box-button a:hover{
+    text-decoration: none;
+    color: White;
+    font-family: Arial;
+  }
+  .box-button:hover{
+    background-color: #8b0000;
+    transition: background-color 0.5s;
+  }
+}

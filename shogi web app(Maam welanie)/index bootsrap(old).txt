@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Learn Shogi</title>
+    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/navs.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <!--media-->
+    <link rel="stylesheet" href="./media/header.css">
+    <link rel="stylesheet" href="./media/nav.css">
+    <link rel="stylesheet" href="./media/home/body.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Header-->
+    <div class="Header-container">
+        <img class="logo" src="./img/logo.png" alt="TSUME-shogi-logo">
+        <div class="header-text">
+          <h1 class="title-text">Learn Shogi</h1>
+          <i class="quote">"Japanese chess game"</i>
+        </div>
+    </div>
+    <!--Navbar-->
+<div class="Nav-container navbar-expand-md navbar-static-top" role="navigation">
+  <div class="nav-parent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class=" nav-item">
+        <a class=" nav-link" href="#">Home</a>
+      </li>
+
+      <li class=" nav-item dropdown">
+        <a class=" nav-link dropdown-toggle" data-toggle="dropdown" role="button"  href="#"aria-haspopup="true" aria-expanded="false" >Tips and Tricks </a>
+        <div class="dropdown-menu" >
+          <a class=" nav-link dropdown-item" href="history.html">History</a>
+          <a class=" nav-link dropdown-item" href="Term.html">Terminologies</a>
+          <a class=" nav-link dropdown-item" href="Rules.html">Basic Rules</a>
+          <a class=" nav-link dropdown-item" href="Castle.html">Castles</a>
+          <a class=" nav-link dropdown-item" href="Tactics.html">Techniques</a>
+        </div>
+
+      </li>
+      <li class= " nav-item">
+        <a class=" nav-link" href="#">Resources</a>
+      </li>
+      <li class=" nav-item">
+        <a class=" nav-link" href="#">Forum</a>
+      </li>
+    </ul>
+  </div>
+</div>
+    <!--Body-->
+    <div class="Body-container">
+      <!--Banner section-->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="first carousel-item active"  data-interval="10000">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="text-1 display-4">Learn Shogi</h1>
+           <p class="lead">
+             "Learn and strategize like a true samurai."
+           </p>
+          </div>
+      </div>
+    </div>
+    <div class="second carousel-item"  data-interval="10000">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="text-1 display-4">Analyze the Game</h1>
+          <p class="lead">
+            "Discover new Tactics and Solutions"
+          </p>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <div class="main-body">
+        <h1 class="head">Foreword:</h1>
+        <p class="Text">- I have made this website to teach new players
+          of shogi and able to collaborate with other people learn new techniques, tactics and strategy
+          to improve better at their games.</p>
+          <h1 class="head">Aim:</h1>
+          <img src="" alt="">
+          <p class="Text">- My aim is that as a fellow rookie shogi player
+            I want to learn this game as I am creating this site and also be able
+            to share educational resources for you to read and download.I am
+            hoping to somehow someday I'll be able to create a working online shogi game
+            that players can play on.</p>
+            <h1 class="head">Learn:</h1>
+
+            <!--Make collection of overlays-->
+            <div class="box-container container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-xs-6">
+                  <div class="box">
+                    <img class="box-images" src="./img/history.jpg" alt="history.jpg">
+                    <p class="box-text">Learn Shogi History</p>
+                    <div class="box-button">
+                      <a href="history.html">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="box ">
+                    <img class="box-images" src="./img/tactics.jpg" alt="tactics.jpg">
+                    <p class="box-text">Learn Tactics and Strategies</p>
+                    <div class="box-button">
+                      <a href="Tactics.html">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="box ">
+                    <img class="box-images" src="./img/castle.jpg" alt="castle.jpg">
+                    <p class="box-text">Learn Different Castles</p>
+                    <div class="box-button">
+                      <a href="Castle.html">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="box ">
+                    <img class="box-images" src="./img/rules.jpg" alt="rules.jpg">
+                    <p class="box-text">Learn the Rules</p>
+                    <div class="box-button">
+                      <a href="Rules.html">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="box ">
+                    <img class="box-images" src="./img/terminology.jpg" alt="history.jpg">
+                    <p class="box-text">Learn Terminologies</p>
+                    <div class="box-button">
+                      <a href="Term.html">Read More</a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="Footer-container">
+      <p>Copyright 2020- Nikki Gonzales</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

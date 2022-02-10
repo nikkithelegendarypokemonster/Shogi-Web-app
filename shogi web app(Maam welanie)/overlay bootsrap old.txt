@@ -1,0 +1,115 @@
+.Body-container{
+  background-color: #FFFFCC;
+  opacity: 100%;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width:65%;
+}
+/*Banner css*/
+.first .jumbotron{
+  background-image: url("./../img/banner.jpg");
+  background-size:cover;
+  padding-top:15%;
+  text-align: center;
+}
+.second .jumbotron{
+  background-image: url("./../img/banner-2.jpg");
+  background-size:cover;
+  padding-top:15%;
+  text-align: center;
+}
+/*banner text*/
+.jumbotron .lead{
+  color:white;
+  font-size: calc(100% + 1vw + 1vh);
+}
+.jumbotron .text-1{
+  color:white;
+  font-size: calc(60px + 1vw + 1vh);
+}
+/*---------------------------------*/
+.main-body{
+  margin:20px;
+  padding: 0px;
+}
+.head{
+  font-family:Arial Narrow;
+  text-decoration: underline;
+}
+.Text{
+  font-family: Arial;
+  font-size: 20px;
+}
+.box-container{
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+.box{
+  display: inline-block;
+  text-align: center;
+  background-color: 	#D3D3D3 ;
+  opacity:80%;
+  max-width: 196px;
+  height:auto;
+  margin:0;
+  padding:0;
+  margin:30px;
+  transition: opacity 0.5s;
+}
+
+.box:hover{
+  display: inline-block;
+  text-align: center;
+  background-color:#D3D3D3 ;
+  opacity:100%;
+  max-width: 196px;
+  margin:0;
+  margin:30px;
+  transition: opacity 0.5s;
+}
+.row .col-md-1,.row .col-sm-1{
+  padding:0;
+}
+
+.box-images{
+  display: block;
+  max-width: 100%;
+  max-height:100%;
+  object-fit: cover;
+}
+.box-text{
+  font-family: Meiryo;
+  margin:0;
+}
+.box-button{
+  text-decoration: none;
+  color: white;
+  float: right;
+  background-color: red;
+  padding:10px;
+  margin:10px;
+  transition: background-color 0.5s;
+}
+
+.box-button:hover{
+  text-decoration: none;
+  background-color: #8b0000;
+  color: white;
+  transition: background-color 0.5s;
+}
+.box-button a{
+  text-decoration: none;
+  color: White;
+  font-family: Arial;
+}
+.box-button a:hover{
+  text-decoration: none;
+  color: White;
+  font-family: Arial;
+}
+@font-face {
+    font-family: Meiryo;
+    src:url("./../fonts/meiryo.ttc");
+}

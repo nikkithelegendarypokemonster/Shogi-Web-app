@@ -1,0 +1,12 @@
+.Footer-container{
+
+  background-color: #bb6528;
+  text-align: center;
+  margin:0;
+  padding: 20px;
+  width: 100%;
+}
+.Footer-container p{
+  font-family: Arial Narrow;
+  color:white;
+}

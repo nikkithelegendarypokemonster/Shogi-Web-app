@@ -1,0 +1,20 @@
+    <div class="Nav-container">
+      <a href="index.html" class="opt">Home</a>
+      <!--Set a drop down btn-->
+      <div class="drop-parent">
+        <p class="opt ignore">Tips and Tricks</p>
+        <div class="dropdown">
+          <a href="history.html">History</a>
+          <a href="Term.html">Terminologies</a>
+          <a href="Rules.html">Basic Rules</a>
+          <a href="Castle.html">Castles</a>
+          <a href="Tactics.html">Techniques</a>
+        </div>
+      </div>
+      <a href="#" class="opt">Resources</a>
+      <a href="#"class="opt">Forum</a>
+      <div class="log-sign">
+        <a href="#"class="opt">Sign In</a>
+        <a href="#"class="opt">Sign Up</a>
+      </div>
+    </div>
